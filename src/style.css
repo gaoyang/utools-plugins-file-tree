@@ -33,3 +33,17 @@ html {
 html.dark {
   --color-bg: #303133;
 }
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background-color: #414243;
+  border-color: #1d1e1f;
+}

@@ -1,7 +1,7 @@
 {
-  "name": "utools-plugin-template",
+  "name": "utools-plugins-file-tree",
   "version": "1.0.0",
-  "description": "utools插件开发模板",
+  "description": "utools 文件树插件",
   "scripts": {
     "start": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -26,6 +26,7 @@
     "axios": "^0.27.2",
     "dayjs": "^1.11.5",
     "element-plus": "^2.2.17",
+    "pretty-bytes": "^6.1.0",
     "vue": "^3.2.39",
     "vue-router": "^4.1.5"
   }

@@ -13,15 +13,6 @@ export default defineConfig({
     vue(),
     createStyleImportPlugin({
       resolves: [ElementPlusResolve()],
-      // libs: [//貌似这个方式不OK啊,还是需要再main.ts中按需引入
-      //   {
-      //     libraryName: 'element-plus',
-      //     esModule: true,
-      //     resolveStyle: (name: string) => {
-      //        return `element-plus/theme-chalk/${name}.css`
-      //     }
-      //   }
-      // ]
     }),
     createPreloadPlugin({
       // name: 'window.preload',

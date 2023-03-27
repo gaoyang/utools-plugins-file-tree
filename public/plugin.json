@@ -1,9 +1,9 @@
 {
-  "name": "author",
-  "pluginName": "pluginName",
+  "name": "gaoyang",
+  "pluginName": "fileTree",
   "description": "plugin description",
-  "author": "https://github.com/bravekingzhang",
-  "homepage": "https://github.com/bravekingzhang/your-plugin-name",
+  "author": "https://github.com/gaoyang",
+  "homepage": "https://github.com/gaoyang/utools-plugins-file-tree",
   "version": "1.0.0",
   "logo": "logo.png",
   "main": "index.html",
@@ -14,18 +14,9 @@
   },
   "features": [
     {
-      "code": "plugin",
-      "explain": "description",
-      "cmds": [
-        "plugin",
-        "description",
-        {
-          "type": "files",
-          "fileType": "file",
-          "match": "/\\.(png|jpeg|jpg|webp)$/i",
-          "label": "压缩图片"
-        }
-      ]
+      "code": "tree",
+      "explain": "生成文件树",
+      "cmds": ["tree", "文件树"]
     }
   ]
 }

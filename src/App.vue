@@ -98,7 +98,7 @@ export default defineComponent({
   data() {
     return {
       path: '',
-      treeText: '请在目录中打开...',
+      treeText: 'loading...',
       regStr: '',
       options: {
         allFiles: false,

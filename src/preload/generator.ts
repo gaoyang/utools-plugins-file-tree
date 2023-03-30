@@ -8,7 +8,6 @@ const DEFAULT_OPTIONS: TreeOptions = {
   dirsOnly: false,
   sizes: false,
   exclude: [],
-  include: [],
   maxDepth: Number.POSITIVE_INFINITY,
   reverse: false,
   trailingSlash: false,

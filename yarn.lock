@@ -296,13 +296,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.1.4":
-  version: 6.4.5
-  resolution: "@vue/devtools-api@npm:6.4.5"
-  checksum: 40c5adc8788cb283972ce09ba7ce105fa894f4decec9168829cc8e6211462763402442e6c31be76f9da62b0e74ae724971b924571367b4ac89b94dc6894e2d07
-  languageName: node
-  linkType: hard
-
 "@vue/reactivity-transform@npm:3.2.40":
   version: 3.2.40
   resolution: "@vue/reactivity-transform@npm:3.2.40"
@@ -2300,7 +2293,6 @@ __metadata:
     vite-plugin-style-import: ^2.0.0
     vite-plugin-utools-helper: ^0.0.1
     vue: ^3.2.39
-    vue-router: ^4.1.5
     vue-tsc: ^0.40.13
   languageName: unknown
   linkType: soft
@@ -2380,17 +2372,6 @@ __metadata:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
   checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
-  languageName: node
-  linkType: hard
-
-"vue-router@npm:^4.1.5":
-  version: 4.1.5
-  resolution: "vue-router@npm:4.1.5"
-  dependencies:
-    "@vue/devtools-api": ^6.1.4
-  peerDependencies:
-    vue: ^3.2.0
-  checksum: cafa2f4e14188bca0d4d45e05a901b6ff7bb3933010a6b2c9372bed7fa872bb2e18f1f033b23f540d3a75e1ecd6840b79a5ba5a714de01942d02e1e6cce88dec
   languageName: node
   linkType: hard
 

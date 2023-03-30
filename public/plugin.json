@@ -1,7 +1,7 @@
 {
   "name": "gaoyang",
-  "pluginName": "fileTree",
-  "description": "plugin description",
+  "pluginName": "文件树",
+  "description": "生成文件树，可视化自定义配置、夜间模式、正则表达式排除不需要的内容。",
   "author": "https://github.com/gaoyang",
   "homepage": "https://github.com/gaoyang/utools-plugins-file-tree",
   "version": "1.0.0",
@@ -15,7 +15,7 @@
   "features": [
     {
       "code": "tree",
-      "explain": "生成文件树",
+      "explain": "生成文件树，可视化自定义配置、夜间模式、正则表达式排除不需要的内容。",
       "cmds": ["tree", "文件树"]
     }
   ]
